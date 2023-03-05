@@ -1,0 +1,249 @@
+<html>
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {background-image: url(
+"https://static3.depositphotos.com/1007531/231/i/450/depositphotos_2312915-stock-photo-sl-night-space-sky-3.jpg");}
+
+/* Style the header */
+header {
+  background-color: Lightgray;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+
+nav {
+  float: left;
+  padding: 20px;
+  width: 30%;
+  background: gray;
+  height: 800px; /* only for demonstration, should be removed */
+}
+
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 40%;
+  background-color: white;
+  height: 800px; /* only for demonstration, should be removed */
+}
+
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+  float: right;
+  padding: 20px;
+  width: 30%;
+  background: gray;
+  height: 800px; /* only for demonstration, should be removed */
+
+}
+
+/* Style the footer */
+
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:Lightgray;
+  padding: 30px;
+  text-align: center;
+  font-size:35px
+  color: black;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+
+
+<section>
+
+  <header>
+
+<h1 id="#HM" style="color:Black; font-size:30">Home</h1>
+
+
+</header>
+
+<body>
+
+  <nav>
+     <ul>
+       <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+     </ul>
+   </nav>
+
+<article>
+
+
+<h2 style="color:black; font-size:28">HELLO WORLD</h2>
+
+<p style="font-size:24; color:black" id="text">
+
+
+
+Hi everyone,
+My name is Archana, I am currently pursuing a master's in computer science at Pace University,
+I am taking three classes this semester and so interested in learning about HTML and new things in these HTML,
+It is so interesting to learn about creating a website by using HTML, CSS, and JavaScript.
+And I’m curious to learn more about how to create websites in different ways and different styles.
+
+</p>
+
+<iframe width="420" height="345" src="https://www.bing.com/videos/search?q=what+is+html+video&&view=detail&mid=E118ABFAA847CE47CE57E118ABFAA847CE47CE57&&FORM=VRDGAR&ru=%2Fvideos%2Fsearch%3Fq%3Dwhat%2520is%2520html%2520video%26qs%3DMM%26form%3DQBVR%26%3D%2525eManage%2520Your%2520Search%2520History%2525E%26sp%3D1%26lq%3D0%26pq%3Dwhat%2520is%2520html%2520videos%26sc%3D10-19%26cvid%3D619BAC7E1C8E4C3ABBEB7D57887D5ABC">
+</iframe>
+
+
+
+</article>
+
+
+<aside>
+
+<p><a href="#HM"> HOME </a></p>
+
+<p><a href="#AM"> ABOUT ME </a></p>
+
+<p><a href="#CM"> CONTACT ME </a></p>
+
+<p><a href="https://www.w3schools.com/html/"> HTML </a></p>
+
+<p><a href="https://www.w3schools.com/css/"> CSS </a></p>
+
+
+</aside>
+
+<footer>
+
+<h3 style="color:Black; font-size:30">Copyright©HELLOWORLD.COM</h3>
+
+</footer>
+</body>
+</section>
+
+
+<section>
+
+<head>
+<h1 id= "AM" style="color:white; font-size:30">ABOUT ME</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<h2 style="color:white; font-size:28">ARCHANA BARKA</h2>
+</head>
+
+<body>
+
+<p style="font-size:24;" id="text">
+Hi everyone,
+My name is Archana, I am currently pursuing a master's in computer science at Pace University, bearing University ID : U01874514.
+I come from India. Some of my interests and hobbies are Drawing, listening music , Swimming, playing badminton and learning someting new coding.
+In the future, I hope to study more about coding and become a coder.
+It’s great to be a part of this class, and I’m looking forward to learn new concepts from this class.
+</p>
+
+
+  <head>
+  <h3 style= "color:white; font-size:28">HOBBIES</h3>
+  </head>
+
+  <figure>
+  <img id="myhobbies" src="https://i2.pickpik.com/photos/638/598/329/babington-game-lounge-active-holidays-adopt-a-garden-thumb.jpg"  width="460" height="345">
+  <button onclick="document.getElementById('myhobbies'). src='https://i.pinimg.com/originals/81/58/62/815862f2d9e50ffd2f6b10061568f9e0.jpg'"> Imagechange </button>
+  <figcaption style="font-size:24;color:white"> Figure-1: Badminton & Art </figcaption>
+  </figure>
+
+
+             <style>
+               body {background-image: url(
+               "https://static3.depositphotos.com/1007531/231/i/450/depositphotos_2312915-stock-photo-sl-night-space-sky-3.jpg");}
+               p{color: white; font-family: Monotype cursive regular; }
+               #text {font-family: sans; font-weight: normal;}
+               button {background-color: black ;  border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none;
+              display: inline-block; font-siz: 16px; margin: 4px 2px; cursor: pointer; -webkit-transition-duration: 0.4s; /* Safari */  transition-duration: 0.4s;}
+
+button{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+            </style>
+</body>
+
+</section>
+
+<section>
+
+<head>
+
+<h1 id="CM" style="color:white; font-size:30">CONTACT ME</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+  <form>
+
+  <p>
+
+    <label form="Name" "front-size:24;">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+
+  </p>
+
+<p>
+
+    <label for="Subject" "front-size:24;">Subject:</label>
+    <input type="text" id="subject" name="subject" required><br>
+
+</p>
+
+<p>
+
+    <label for="Message" "front-size:24;">Message:</label><br>
+    <textarea id="message" name="message" required></textarea><br>
+
+</p>
+
+<p>
+    <input type="Submit" "front-size:24;" value="Submit">
+
+</p>
+
+</form>
+</body>
+
+</section>
+
+
+</html>
